@@ -1,7 +1,5 @@
 import Experience from '../Experience/Experience';
-import Environment from './Environment';
-
-import * as THREE from 'three';
+// import Environment from './Environment';
 
 export default class World {
   constructor() {
@@ -13,7 +11,7 @@ export default class World {
       // setup env after resources are ready
       // ORDER MATTERS
 
-      this.environment = new Environment();
+     // this.environment = new Environment();
     });
   }
   update() {
