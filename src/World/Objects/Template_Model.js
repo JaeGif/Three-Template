@@ -1,4 +1,4 @@
-import Experience from '../Experience/Experience';
+import Experience from '../../Experience/Experience';
 import * as THREE from 'three';
 
 export default class Template_Model {
