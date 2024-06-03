@@ -3,10 +3,9 @@
 // path: string[] | string;
 
 export default [
-    {
-      name: '',
-      type: '',
-      path: '',
-    },
-  ];
-  
+  // {
+  //  name: '',
+  //  type: '',
+  //  path: '',
+  // },
+];

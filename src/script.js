@@ -1,4 +1,4 @@
 import Experience from './Experience/Experience';
-import './style.css';
+import './styles.css';
 
 const experience = new Experience(document.querySelector('canvas.webgl'));

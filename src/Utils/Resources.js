@@ -30,7 +30,7 @@ export default class Resources extends EventEmitter {
 
   startLoading() {
     // loop all loaders
-
+    if (!this.sources.length) return;
     for (const source of this.sources) {
       // test type for correct loader
       switch (source.type) {
